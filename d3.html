@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D3 Playground</title>
+  </head>
+  <body>
+    <div id="area-chart"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="area.min.js"></script>
+    <script>
+const data = [1, 2, 3, 6];
+const area = new charts.Area(data);
+area.render("#area-chart")
+    </script>
+  </body>
+</html>
